@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <title> changing bitcoin to usd : its a converter</title>
+<head>
+    <title>Changing Bitcoin to USD: A Converter</title>
     <style>
-        body{
-            background-color: aqua;
+        body {
+            background-color: #D3D3D3;
         }
-        h1{
+        h1 {
             text-align: center;
-            text-shadow: 7cm;
             text-decoration: wavy;
         }
-        p{
+        p {
             text-align: center;
-            text-shadow: 7cm; 
             text-decoration: blueviolet;
         }
-        div{
+        form {
             text-align: center;
-
         }
     </style>
 </head>
 <body>
-    <h1> BITCOIN To USD converter</h1>
-    <p> Enter the number of bitcoins </p>
-    <div id = "button1">
-    <input type ="number" id = "btc" min = "0">
-    <button id = "convert"> Convert </button>
-</div>
+    <h1>BITCOIN Converter</h1>
+    <p>Enter the number of bitcoins</p>
+    <form id="converter-form">
+        <input type="number" id="amount" placeholder="Amount">
+        <select id="currency">
+            <option value="USD">USD $</option>
+            <option value="CAD">CAD $</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <button type="submit">Zoom convert</button>
+    </form>
     <div id="result"></div>
-    <script src = "cv-calculator.js"></script>
+    <script src="cv_calculator.js"></script>
 </body>
 </html>
