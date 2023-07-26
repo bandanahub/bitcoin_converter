@@ -13,7 +13,7 @@ form.addEventListener('submit', async (event) => {
     return;
   }
 
-  const apiKey = 'C783DF3A-7B5E-40C5-8CFE-72A5F3D34165'; 
+  const apiKey = 'C783DF3A-7B5E-40C5-8CFE-72A5F3D34165';
   const url = `https://rest.coinapi.io/v1/exchangerate/BTC/${currency}?apikey=${apiKey}`;
 
   try {
